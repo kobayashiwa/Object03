@@ -121,21 +121,56 @@ header {
 	border-radius: 24px;
 	padding: 8px 24px;
 }
-.main-carousel {
+.main-carousel .slide {
 	width: 100%;
-}
-.slide {
-	background-size: cover;
-}
-.main-carousel .slide1 {
+	height: 700px;
+ }
+ .slide {
+	 position: relative;
+ }
+ h2 {
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 padding: 0 80px 80px 80px;
+ }
+ .slide1 {
 	background-image: url(../image/AlamyRF_K705AT.jpg);
-}
+	background-size: cover;
+ }
+ 
+ .slide2 {
+	background-image: url(../image/shutterstockRF_1257564496.jpg);
+	background-size: cover;
+ }
+ 
+ .slide3 {
+	background-image: url(../image/BTmarie-antoinette39s-personal-maison-versailles-france-07201410-060225.jpg);
+	background-size: cover;
+ }
+
+ .slide4 {
+	background-image: url(../image/EmiratesCOVID-19testing.jpg);
+	background-size: cover;
+ }
+ 
+ .slide5 {
+	background-image: url(../image/EmiratespassengerstestforCOVID-19.jpg);
+	background-size: cover;
+ }
+ 
+ .slide6 {
+	background-image: url(../image/EmiratesCOVID-19testinginDubai.jpg);
+	background-size: cover;
+ }
+/*
 
 .container {
 	width: 100%;
 	margin: 0 auto;
 	padding: 320px 80px 80px 80px;
 }
+*/
 h2 {
 	color: #fff;
 	font-size: 56px;
