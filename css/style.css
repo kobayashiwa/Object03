@@ -128,7 +128,7 @@ header {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 80px;
+	padding: 320px 80px 80px 80px;
 }
 h2 {
 	color: #fff;
