@@ -5,8 +5,10 @@
     <title>オブジェクト - オブジェクトを要素に持つ配列（2）</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.min.css"/>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -35,6 +37,15 @@
         </div>
     </header>
 
+    <div class="main-carousel">
+            <div class="slide slide1"><h2>Stream hours of classic travel shows on Lonely Planet TV</h2></div>
+            <div class="slide slide2"><h2>'Will we ever make it back?' Returning home to grieve following COVID-19 loss</h2></div>
+            <div class="slide slide3"><h2>The Charms of Riding the Tokaido Shinkansen</h2></div>
+            <div class="slide slide4"><h2>Why reliving our best ever trips can feed the soul</h2></div>
+            <div class="slide slide5"><h2>Virtual vacation: France</h2></div>
+            <div class="slide slide6"><h2>This corner of northeastern Utah is the wilderness only locals…</h2></div>
+    </div>
+
 <script>
     const projects = [
         {name:"TOPGUN", Contractor:"竹中工務店", SiteArea:"61,856.40㎡", BuildingArea:"3,442.80㎡", FloorSpace:"4,745.10㎡", Floors:"地上2階", Construction:"鉄骨鉄筋コンクリート造", DesignPeriod:"2007/04 - 2008/07", ConstructionPeriod:"2008/07 - 2009/08"},
@@ -56,6 +67,11 @@
         console.log (`[ 設計期間 ]　${project.DesignPeriod}`);
         console.log (`[ 施工期間 ]　${project.ConstructionPeriod}`);
     }
+
+    var flkty = new Flickity( '.main-carousel', {
+  // options
+});
+
 </script>
 
 
