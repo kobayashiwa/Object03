@@ -133,6 +133,8 @@ header {
 h2 {
 	color: #fff;
 	font-size: 56px;
+	width: 70%;
+	line-height: 1.2;
 }
 @media (max-width: 1290px) {
 	.navbar-collapse {
