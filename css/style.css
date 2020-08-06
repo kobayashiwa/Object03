@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	font-family: 'Inconsolata', monospace;
 	color: #2C3543;
+	background: #000;
 }
 a {
 	text-decoration: none;
