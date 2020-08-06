@@ -120,6 +120,14 @@ header {
 	border-radius: 24px;
 	padding: 8px 24px;
 }
+.page-collection {
+	width: 100%;
+	background-image: url(../image/Queen\ Meresankh\ III.jpg);
+	background-size: cover;
+}
+h2 {
+	color: #fff;
+}
 @media (max-width: 1290px) {
 	.navbar-collapse {
 		justify-content: flex-end;
